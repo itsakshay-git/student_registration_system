@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+    name="description"
+    content="The Student Registration System allows users to register students and manage their information dynamically."
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <!-- Header section includes the title and description of the student registration system -->
+    <header>
+        <section id="title">
+            <h1>STUDENT REGISTRATION SYSTEM</h1>
+        </section>
+    
+        <section id="description">
+            <p>The Student Registration System allows users to register students and manage their information dynamically. Below are the key features of the system:</p>
+            <ul>                
+                <li><strong>Form Validation:</strong> Ensures all fields are filled, <code>validates</code> email format, and <code>checks</code> for numeric values for Student ID and Contact No.</li>
+                <li><strong>Toast Notifications:</strong> Displays success or error messages for various actions like <code>adding</code>, <code>editing</code>, or deleting students.</li>
+                <li><strong>Dynamic Table:</strong> Lists all registered students and <code>updates</code> automatically when a new student is added or existing data is modified.</li>
+                <li><strong>Edit and Delete Options:</strong> Allows users to <code>edit</code> or <code>delete</code> a student's information directly from the table.</li>
+                <li><strong>Local Storage Persistence:</strong> Ensures that the student data remains even after the page is reloaded.</li>
+            </ul>
+        </section>
+
+    </header>
+
+    <!-- Main section is divided into two parts: form input and table -->
+    <main>
+        <!-- This section contains well-structured form elements and a button -->
+        <section class="student_form">
+            <div>
+                <label for="student_name">NAME</label><br>
+                <input type="text" id="student_name" placeholder="akshay dhongade" required>
+            </div>
+
+            <div>
+                <label for="class">EMAIL</label><br>
+                <input type="email" id="class" placeholder="akshay@gmail.com" required>
+            </div>
+            <div>
+                <label for="student_id">ID</label><br>
+                <input type="number" id="student_id" placeholder="1234" required>
+            </div>
+
+            <div>
+                <label for="rool_no">ROLL NO.</label><br>
+                <input type="number" id="roll_no" placeholder="099" required>
+            </div>
+
+            <div>
+                <label for="contact">CONTACT NO.</label><br>
+                <input type="number" id="contact" placeholder="1234567890" required>
+            </div>
+
+            <div>
+                <br>
+                <button id="add_btn" onclick="add()">Add</button>
+            </div>
+        </section>
+
+        <!-- This section contains a table that displays dynamic data about students -->
+        <section class="student_list_table">
+            <table id="student_table">
+                <thead>
+                    <tr>
+                        <th>STUDENT NAME</th>
+                        <th>STUDENT ID</th>
+                        <th>CLASS</th>
+                        <th>ROLL NO</th>
+                        <th>CONTACT NO</th>
+                        <th>ACTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="no_students">
+                        <td colspan="5">No, students. Add student to display the list.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <!-- dynamic toast -->
+    <div id="toast" class="toast"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
