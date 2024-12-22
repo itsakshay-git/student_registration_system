@@ -3,7 +3,7 @@
 ## Git Link
 
 Check out the demo Git repository for this project:
-[Student Registration System GitHub Repository]()
+[Student Registration System GitHub Repository](https://github.com/itsakshay-git/student_registration_system)
 
 ---
 
