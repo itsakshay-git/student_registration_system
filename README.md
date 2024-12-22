@@ -7,6 +7,10 @@ Check out the demo Git repository for this project:
 
 ---
 
+## Demo Picture
+![Screenshot 2024-12-23 001124](https://github.com/user-attachments/assets/05aec35a-dea3-4176-88b8-87179255c326)
+
+
 ## Overview
 
 The **Student Registration System** is a web-based application designed to manage student information efficiently. It allows users to register students, edit their details, view the student list in a table format, and delete entries as needed. The application ensures data integrity through robust validation and a clean user interface.
