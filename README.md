@@ -2,14 +2,21 @@
 
 ## Git Link
 
-Check out the demo Git repository for this project:
+Check out the Git repository for this project:
 [Student Registration System GitHub Repository](https://github.com/itsakshay-git/student_registration_system)
 
 ---
 
-## Demo Picture
-![Screenshot 2024-12-23 001124](https://github.com/user-attachments/assets/05aec35a-dea3-4176-88b8-87179255c326)
+## Demo webLink
 
+check out the demo weblink of this project
+[Student Registration System](https://student-registration-assignment.netlify.app/)
+
+---
+
+## Demo Picture
+
+![Screenshot 2024-12-23 001124](https://github.com/user-attachments/assets/05aec35a-dea3-4176-88b8-87179255c326)
 
 ## Overview
 
