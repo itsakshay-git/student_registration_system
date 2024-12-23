@@ -91,7 +91,7 @@ async function add(){
         let emptyFields = [];
         if(!studentName) emptyFields.push('Student Name');
         if(!studentId) emptyFields.push("Student Id");
-        if(!studentEmail) emptyFields.push("Class");
+        if(!studentEmail) emptyFields.push("Email");
         if(!studentRollNo) emptyFields.push("Roll No");
         if(!studentContact) emptyFields.push("Contact No")
         resetBtn(addButton)
